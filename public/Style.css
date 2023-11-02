@@ -21,6 +21,7 @@ place-items:center;
    border: 8px solid black;
    border-radius: 5px;
    overflow: hidden; 
+   width: 50%;
 }
 .name{
     display: flex;
@@ -29,9 +30,11 @@ place-items:center;
     padding: 8px 16px;
     color: #7e7e7e;
     background-color: rgb(137, 158, 141);
+    width: 100%;
 }
 .name > span{
     color: white;
+    width: 50%;
 }
 .name-input{
     font-size: 24px;
@@ -42,6 +45,7 @@ place-items:center;
     margin: 0px 12px;
     outline: none;
     background-color: rgb(157, 164, 157); 
+    width: 398%;
 }
 .message-content{
     display: flex;
@@ -51,6 +55,7 @@ place-items:center;
     height: 500px;
     overflow-y: scroll;
     overflow-x: hidden;
+    width: 100%;
 }
 .message-left,.message-right{
     list-style: none;
@@ -63,13 +68,13 @@ place-items:center;
 .message-left{
     border-radius: 20px 20px 20px 0px;
     align-self: flex-start;
-    background-color: #fff;
+    background-color: rgb(148, 228, 126);
     box-shadow: -2px 2px 4px #dcdcdc;
 }
 .message-right{
     border-radius: 20px 20px 0px 20px;
     align-self: flex-end;
-    background-color: #2d2d2d;
+    background-color: rgb(100, 139, 231);
     box-shadow: 2px 2px 4px #dcdcdc;
     color: #f6f6f6;
 }
@@ -99,6 +104,7 @@ margin-top: 4px;
     outline: none;
     padding: 0 12px;
     background-color: rgb(204, 203, 203);
+
 }
 .send-button{
     height: 48px;
@@ -109,14 +115,10 @@ margin-top: 4px;
     background-color: rgb(130, 180, 237);
     color: white;
     cursor: pointer;
+   margin-right: -230px;
 }
 .sub{
     height: 48px;
     width: 2px;
     background-color: #f6f6f6;
-}
-.total-client{
-    margin: 20px 0;
-    color: #7e7e7e;
-
 }

@@ -16,7 +16,7 @@
     <div class="main">
       <div class="name">
         <span><i class="fa-regular fa-user"></i></span>
-        <input type="text"  id="name-input" class="name-input" value="unknown"  maxlength="20"/>
+        <input type="text"  id="name-input" class="name-input" value="User"  maxlength="20"/>
       </div>
       <ul class="message-content" id="message-conatiner">
         <li class="message-left">
@@ -36,17 +36,17 @@
       </ul>
       <from class="message-form" id="message-Form">
         <input type="text" name="message"id="message-input" class="message-input"/>
-        <div class="subbmit"></div>
+        <div class="sub"></div>
         <button type="submit" onclick="SendFunction()" class="send-button">
           Send <span><i class="fa-solid fa-share"></i></span>
         </button>
       </from>
     </div>
-    <!-- <h3 class="total-client" id="client-total">Total client:3</h3> -->
+
 
     <script src="/socket.io/socket.io.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
 
-    <script src="./main.js"></script>
+    <script src="./App.js"></script>
   </body>
 </html>
